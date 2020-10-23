@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892d1a7aeb4cc284dbf62e69e125db52, type: 3}
+  m_Name: Props
+  m_EditorClassIdentifier: 
+  textureQuads:
+  - {fileID: 8596470183851886521}
+  - {fileID: 5916163442837736551}
+  - {fileID: 7883130983458727036}
+  - {fileID: 481745682374754866}
+  selectedTextureQuad: {fileID: 0}
+  showTextures: 1
+  exportSettings: {fileID: 11400000, guid: eedda21337766b648a20455595e0d189, type: 2}
+  textureAtlasSize: {x: 1024, y: 1024}
+  textureGroupRegistration:
+  - name: Albedo
+  - name: Normal
+--- !u!114 &481745682374754866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Old Cup
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 496.00012
+    y: 495.6477
+    width: 527.9999
+    height: 520.10516
+  guiRect:
+    serializedVersion: 2
+    x: 512
+    y: 480
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1782.1951
+    y: 1750.7721
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2054.195
+    y: 1478.7721
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 1798.1951
+    y: 1494.7721
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: af3823ea8b6e1c945ae28dacd978e81a, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: b5cb50bfc18aea34baa8196bfdb65919, type: 3}
+  modelGroups:
+  - name: YKwxVF
+    meshes:
+    - {fileID: 4300000, guid: 61f3d7cc546baf14a98f26525765a434, type: 3}
+--- !u!114 &5916163442837736551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Electric Panel
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 527.9999
+    height: 520.10516
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1270.1951
+    y: 1270.7721
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 1542.1951
+    y: 998.7721
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 1286.1951
+    y: 1014.7721
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: a3c95600bf370ef4c976c6994cad2382, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 9543d6f881214074b9b0cc258a032fe0, type: 3}
+  modelGroups:
+  - name: YKwxVF
+    meshes:
+    - {fileID: 4300000, guid: 461eb05a5ccd18148b77d0ee5e3855a9, type: 3}
+--- !u!114 &7883130983458727036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Strecher
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 10.526306
+    y: 480.26306
+    width: 527.9999
+    height: 520.10516
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 480
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1270.1951
+    y: 1750.7721
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 1542.1951
+    y: 1478.7721
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 1286.1951
+    y: 1494.7721
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: f15bd22eba92b2c48b648c1a25950575, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 24f5e013caac7c54e9992e83cea50cdf, type: 3}
+  modelGroups:
+  - name: YKwxVF
+    meshes:
+    - {fileID: 4300000, guid: 486f62fac68241f41b0ee233cb2d3c44, type: 3}
+--- !u!114 &8596470183851886521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: Bed
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 505.83618
+    y: 0
+    width: 518.1638
+    height: 519.80304
+  guiRect:
+    serializedVersion: 2
+    x: 512
+    y: 0
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1782.1951
+    y: 1270.7721
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2054.195
+    y: 998.7721
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 1798.1951
+    y: 1014.7721
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 14486d50ab6363d45941a26fe7d85a16, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 0}
+  modelGroups:
+  - name: octeEp
+    meshes:
+    - {fileID: 4300000, guid: b14dfb445f850ea4ba4e6b34702e612b, type: 3}
